@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <title>Home Page</title>
+        <style>
+            body
+            {
+                background-color:rgb(132, 243, 243);
+                margin: 2px;
+                padding:10px;
+                justify-content: center;
+            }
+            nav{
+                background-color: rgb(109, 162, 243);
+                color:black;
+                padding:20px;
+                
+            }
+            button{
+                background-color: rgb(255, 249, 240);
+                color:black;
+                border-radius: 5px;
+                font-size: 16px;
+
+            }
+            img{
+                border:0svh;
+                border-radius: 5px;
+            }
+            footer{
+                text-align: center;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>
+            Welcome to Tours and Travels
+           </h1>
+        </header>
+        <nav>
+            <button>Home</button>
+            <button onclick="aboutus()">About Us</button>
+            <a href="file:///C:/Users/Dell/OneDrive/Documents/login1.html">Login</a>&nbsp;|
+            <a href="file:///C:/Users/Dell/OneDrive/Documents/registration1.html">Registration</a>&nbsp;|
+            <button onclick="services()">Services</button>
+            <button onclick="contactus()">Contact Us</button>
+        </nav>
+        <br>
+          <figure>
+            <img src="https://tse4.mm.bing.net/th?id=OIP.RGpdb3FKmZ07rSFIvoaEtAHaE8&pid=Api&P=0&h=180" alt="img" height="200px"; width="300px";>
+            <figcaption>
+                <h4>1.Goa</h2>
+                <p>Goa is the best place and It has cool atmosphere and nice beaches to spend summer holidays.</p>
+            </figcaption>
+
+        </figure>
+        <figure>
+            <img src="https://www.tourmyindia.com/blog//wp-content/uploads/2020/11/kashmir.jpg" alt="img" height="200px"; width="300px";>
+            <figcaption>
+                <h2>2.Kashmir</h2>
+                <p>One of the most incredible places in India, Kashmir is known for its natural beauty and is thus, rightly called Heaven on Earth. </p>
+            </figcaption>
+
+        </figure>
+        <figure>
+            <img src="https://tse1.mm.bing.net/th?id=OIP._zPNQh-qaudUGy60GIHSvAHaEc&pid=Api&P=0&h=180" alt="img" height="200px"; width="300px";>
+            <figcaption>
+                <h2>3.Araku</h2>
+                <p>Araku is known for it's mountain ranges and cool atmospheric conditions.</p>
+            </figcaption>
+        </figure>
+        <figure>
+            <img src="https://www.tourmyindia.com/blog//wp-content/uploads/2020/11/Delhi.jpg" alt="img" height="200px"; width="300px";>
+            <figcaption>
+                <h2>4.Delhi</h2>
+                <p>The capital city makes for one of the perfect travel destinations in India.</p>
+            </figcaption>
+
+        </figure>
+        <figure>
+            <img src="https://www.tourmyindia.com/blog//wp-content/uploads/2020/11/ladakh.jpg" alt="img" height="200px"; width="300px";>
+            <figcaption>
+                <h2>5.Ladakh</h2>
+                <p>Ladakh is unlike any place to visit in India.</p>
+            </figcaption>
+
+        </figure>
+        <figure>
+            <img src="https://www.tourmyindia.com/blog//wp-content/uploads/2020/11/agra-taj-mahal.jpg" alt="img" height="200px"; width="300px";>
+            <figcaption>
+                <h2>6.Taj Mahal</h2>
+                <p>Home to the symbol of love, Taj Mahal.</p>
+            </figcaption>
+            
+
+        </figure>
+        <figure>
+            <img src="https://www.tourmyindia.com/blog//wp-content/uploads/2020/11/Kerala-Houseboat-in-backwater-of-Kerala.jpg" alt="img" height="200px"; width="300px";>
+            <figcaption>
+                <h2>7.Kerala</h2>
+                <p> Kerala is tucked between Arabian Sea and the Western Ghats and is blessed with immense natural beauty.</p>
+            </figcaption>
+        </figure>
+        
+        <br>
+       
+        
+        <footer>
+              <p>@Tours and Travels - trusted by millions of people</p>
+        </footer>
+        <script>
+            function aboutus()
+            {
+                alert('Tours and Travels is a international tourism company.It provides sevices in several domains');
+            }
+            function services()
+            {
+                alert('we can provide ticket booking,booking hotels and provide guides to explore places');
+            }
+            function contactus()
+            {
+                alert('email: tours and travels2gmail.com --- ph:9177451799');
+                
+            }
+        </script>
+    </body>
+</html>
